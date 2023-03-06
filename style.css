@@ -9,9 +9,10 @@ h1{margin-left: 35%; margin-bottom: 5%;}
 body {
     margin: 0;
     padding: 0;
+    justify-content: center;
 }
 
-video{flex-direction: column;}
+.column{flex-direction: column;}
 
 .row{
     display: flex;
@@ -21,8 +22,12 @@ video{flex-direction: column;}
 .column {
     flex: 25%;
     padding: 5px;
+    justify-content: center;
 
 }
+
+
+
 
 .column video
 {margin-top: 5px;}
